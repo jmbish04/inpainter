@@ -1,8 +1,0 @@
-name = "inpainter"
-compatibility_date = "2024-03-20"
-pages_build_output_dir = ".vercel/output/static"
-
-[[d1_databases]]
-binding = "DB"
-database_name = "inpainter-db"
-database_id = "your-database-id-here"
