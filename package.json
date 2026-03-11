@@ -10,7 +10,8 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "speed-up-video": "ffmpeg -i cherries-oranges-bananas.mov -filter:v 'setpts=PTS/3' cherries-oranges-bananas.mp4"
+    "speed-up-video": "ffmpeg -i cherries-oranges-bananas.mov -filter:v 'setpts=PTS/3' cherries-oranges-bananas.mp4",
+    "deploy": "npx @cloudflare/next-on-pages && npx wrangler pages deploy .vercel/output/static"
   },
   "dependencies": {
     "@libsql/client": "^0.17.0",
